@@ -11,7 +11,7 @@ namespace UdemySite
 {
     public partial class LoginPanel : System.Web.UI.Page
     {
-        SqlConnection baglanti = new SqlConnection(@"Data Source = DESKTOP-LISKVKV\SQLEXPRESS;Initial Catalog=UdemySitedb;Integrated Security=True");
+        SqlConnection baglanti = new SqlConnection(@"Data Source = *************;Initial Catalog=UdemySitedb;Integrated Security=True");
          
         protected void Page_Load(object sender, EventArgs e)
         {
